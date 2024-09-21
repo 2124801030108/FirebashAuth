@@ -1,5 +1,5 @@
 {
-  "name": "FirebashAuth",
+  "name": "firebase-auth",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^20.5.0",
+    "@react-navigation/native": "^6.1.18",
+    "formik": "^2.4.6",
     "react": "18.3.1",
-    "react-native": "0.75.3"
+    "react-native": "0.75.3",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
